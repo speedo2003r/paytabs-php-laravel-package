@@ -12,6 +12,7 @@ use Xgenious\Paymentgateway\Base\Gateways\MolliePay;
 use Xgenious\Paymentgateway\Base\Gateways\PayFastPay;
 use Xgenious\Paymentgateway\Base\Gateways\PaypalPay;
 use Xgenious\Paymentgateway\Base\Gateways\PaystackPay;
+use Xgenious\Paymentgateway\Base\Gateways\PayTabsPay;
 use Xgenious\Paymentgateway\Base\Gateways\PaytmPay;
 use Xgenious\Paymentgateway\Base\Gateways\PayUmoneyPay;
 use Xgenious\Paymentgateway\Base\Gateways\RazorPay;
@@ -91,6 +92,10 @@ class PaymentGatewayHelpers
     public function cinetpay() : CinetPay
     {
         return new CinetPay();
+    }
+    public function paytabs() : PayTabsPay
+    {
+        return new PayTabsPay();
     }
     public function billplz() : BillPlzPay
     {
