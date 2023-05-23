@@ -29,7 +29,7 @@
         "tzsk/payu": "^6.0.0",
         "square/square": "18.0.0.20220420",
         "cinetpay/cinetpay-php": "^1.9",
-        "paytabscom/laravel_paytabs": "dev-master",
+        "paytabscom/laravel_paytabs": "^v1.4.1",
         "jomweb/billplz-laravel" : "^v3.0.0",
         "sharifur/payfast" : "^v1.0.0",
         "authorizenet/authorizenet": "^2.0"
